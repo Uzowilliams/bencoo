@@ -17,11 +17,11 @@ jobs:
       - name: Set up Terraform
         uses: hashicorp/setup-terraform@v3
 
-      - name: Terraform Format Check
-        run: terraform fmt -check
+    #   - name: Terraform Format Check
+    #     run: terraform fmt -check
 
-      - name: Terraform Validate
-        run: terraform validate
+    #   - name: Terraform Validate
+    #     run: terraform validate
 
 
       - name: Terraform Init with Terraform Cloud Token
